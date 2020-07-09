@@ -1,8 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "blocks/farmland_dry",
-		"particle": "blocks/farmland_dry"
+		"1": "blocks/farmland_dry"
 	},
 	"elements": [
 		{
