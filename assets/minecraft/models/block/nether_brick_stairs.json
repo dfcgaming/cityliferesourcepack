@@ -4,9 +4,8 @@
 		"0": "blocks/cauldron_inner",
 		"1": "blocks/coal_block",
 		"2": "blocks/dragon_egg",
-		"3": "blocks/fire_layer_0",
 		"5": "blocks/side",
-		"6": "environment/custom/background",
+		"6": "blocks/custom/bg",
 		"particle": "blocks/cauldron_inner"
 	},
 	"elements": [
@@ -1372,11 +1371,11 @@
 			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8.5]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#6"},
-				"east": {"uv": [0, 0, 1, 6], "texture": "#3"},
-				"south": {"uv": [0, 0, 12, 6], "texture": "#3"},
-				"west": {"uv": [0, 0, 1, 6], "texture": "#3"},
-				"up": {"uv": [0, 0, 12, 1], "texture": "#3"},
-				"down": {"uv": [0, 0, 12, 1], "texture": "#3"}
+				"east": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#missing"}
 			}
 		},
 		{
