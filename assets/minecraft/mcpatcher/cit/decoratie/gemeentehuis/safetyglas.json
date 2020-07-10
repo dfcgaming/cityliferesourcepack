@@ -1,0 +1,28 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "blocks/wool_colored_black",
+		"particle": "blocks/wool_colored_black"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 7.5],
+			"to": [32, 9, 8.4],
+			"faces": {
+				"north": {"uv": [0, 0, 15, 16], "texture": "#missing"},
+				"east": {"uv": [0, 0, 15, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 15, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 15, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 15, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 15, 16], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [14.75, 16, -27.25],
+			"scale": [3.5, 4, 4]
+		}
+	}
+}
