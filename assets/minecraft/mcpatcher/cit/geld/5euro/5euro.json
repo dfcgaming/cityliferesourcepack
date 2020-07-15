@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "blocks/custom/1keurobrief",
+		"0": "blocks/custom/5euro",
 		"1": "blocks/side",
-		"particle": "blocks/custom/1keurobrief"
+		"particle": "blocks/custom/5euro"
 	},
 	"elements": [
 		{
@@ -59,16 +59,13 @@
 		"firstperson_lefthand": {
 			"translation": [0, 1, 0]
 		},
-		"ground": {
-			"scale": [2, 2, 1]
-		},
 		"gui": {
 			"translation": [0, -3.5, 0],
 			"scale": [2.5, 2.5, 1]
 		},
 		"fixed": {
-			"translation": [0, -2.5, 0],
-			"scale": [2, 2, 1]
+			"translation": [0, -2, 0],
+			"scale": [2, 2, 2]
 		}
 	}
 }

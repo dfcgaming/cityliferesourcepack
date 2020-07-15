@@ -1,9 +1,9 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "blocks/custom/1keurobrief",
+		"0": "blocks/custom/20eurobrief",
 		"1": "blocks/side",
-		"particle": "blocks/custom/1keurobrief"
+		"particle": "blocks/custom/20eurobrief"
 	},
 	"elements": [
 		{
@@ -35,7 +35,7 @@
 		{
 			"from": [5, 7.5, 7.7],
 			"to": [11, 10.5, 7.8],
-			"rotation": {"angle": 0, "axis": "y", "origin": [15, 8, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 9, 7.75]},
 			"faces": {
 				"north": {"uv": [2, 5, 14, 11], "texture": "#0"},
 				"east": {"uv": [2.75, 7, 3, 7.25], "texture": "#0"},
@@ -59,16 +59,13 @@
 		"firstperson_lefthand": {
 			"translation": [0, 1, 0]
 		},
-		"ground": {
-			"scale": [2, 2, 1]
-		},
 		"gui": {
 			"translation": [0, -3.5, 0],
 			"scale": [2.5, 2.5, 1]
 		},
 		"fixed": {
-			"translation": [0, -2.5, 0],
-			"scale": [2, 2, 1]
+			"translation": [0, -2, 0],
+			"scale": [2, 2, 2]
 		}
 	}
 }
