@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"textures": {
 		"0": "blocks/side",
-		"1": "blocks/custom/5keurobrief",
+		"1": "blocks/custom/2keurobrief",
 		"particle": "blocks/side"
 	},
 	"elements": [
