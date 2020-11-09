@@ -1,0 +1,24 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "blocks/wool_colored_red"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 90, 0],
+			"translation": [-6, -6.75, 0],
+			"scale": [2, 1.8, 2]
+		},
+		"firstperson_righthand": {
+			"scale": [0, 0, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [-9, 0, 13]
+		},
+		"head": {
+			"translation": [0, 4.5, 17],
+			"scale": [4, 4, 4]
+		}
+	}
+}
