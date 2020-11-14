@@ -5,7 +5,7 @@
 		"1": "blocks/coal_block",
 		"2": "blocks/dragon_egg",
 		"5": "blocks/side",
-		"6": "blocks/custom/bg",
+		"6": "blocks/bg",
 		"particle": "blocks/cauldron_inner"
 	},
 	"elements": [
@@ -1366,9 +1366,9 @@
 		},
 		{
 			"name": "SCHERM",
-			"from": [2, 4, 8],
+			"from": [2, 4, 8.2],
 			"to": [14, 10, 9],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8.5]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6.5, 8.7]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#6"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#missing"},
@@ -1444,6 +1444,12 @@
 			}
 		}
 	],
+	"display": {
+		"gui": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 2.5, 0]
+		}
+	},
 	"groups": [
 		{
 			"name": "Keyboard",
