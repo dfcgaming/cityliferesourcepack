@@ -22,7 +22,7 @@
 	"display": {
 		"fixed": {
 			"rotation": [0, 90, 0],
-			"translation": [0, 16.25, -10.75],
+			"translation": [0, 16, -31],
 			"scale": [4, 4, 2.2]
 		}
 	}
