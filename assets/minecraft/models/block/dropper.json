@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "blocks/end_stone",
-		"2": "blocks/stone_slab_top",
-		"3": "blocks/custom/custom",
-		"particle": "blocks/end_stone"
+		"0": "block/end_stone_bricks",
+		"2": "block/smooth_stone",
+		"3": "custom/custom",
+		"particle": "block/end_stone_bricks"
 	},
 	"elements": [
 		{

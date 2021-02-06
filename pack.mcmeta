@@ -1,1 +1,6 @@
-{"pack": {"pack_format": 3, "description": "Sidenetwork Custom citylife\n texture pack"}}
+{
+  "pack": {
+    "pack_format": 6,
+    "description": "Official Citylife Resourcepack"
+  }
+}
