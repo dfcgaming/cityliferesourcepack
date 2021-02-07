@@ -1,0 +1,88 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "block/white_shulker_box",
+		"1": "block/blue_concrete",
+		"particle": "block/white_shulker_box"
+	},
+	"elements": [
+		{
+			"name": "politie logo",
+			"from": [6.35, 4.4, 0.75],
+			"to": [9.3, 7.175, 1.75],
+			"rotation": {"angle": 45, "axis": "z", "origin": [7.825, 5.6625, 1.25]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.95, 2.775], "texture": "#1"},
+				"east": {"uv": [0, 0, 2.95, 2.775], "texture": "#1"},
+				"south": {"uv": [0, 0, 2.95, 2.775], "texture": "#1"},
+				"west": {"uv": [0, 0, 2.95, 2.775], "texture": "#1"},
+				"up": {"uv": [0, 0, 2.95, 2.775], "texture": "#1"},
+				"down": {"uv": [0, 0, 2.95, 2.775], "texture": "#1"}
+			}
+		},
+		{
+			"from": [-1, 0, -5],
+			"to": [17, 1, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 6]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [-1, 1, 2],
+			"to": [17, 10, 17],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.5, 6]},
+			"faces": {
+				"north": {"uv": [11, 12, 12, 13], "texture": "#0"},
+				"east": {"uv": [11, 12, 12, 13], "texture": "#0"},
+				"south": {"uv": [11, 12, 12, 13], "texture": "#0"},
+				"west": {"uv": [11, 12, 12, 13], "texture": "#0"},
+				"up": {"uv": [11, 12, 12, 13], "texture": "#0"},
+				"down": {"uv": [11, 12, 12, 13], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 7, 1],
+			"translation": [0.5, 2, 0.75],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 90],
+			"translation": [0, 2, 7.25],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, 0],
+			"scale": [0.45, 0.45, 0.45]
+		},
+		"gui": {
+			"rotation": [0, -180, 0],
+			"translation": [0, 20.5, 0],
+			"scale": [0.87, 0.87, 0.45]
+		},
+		"head": {
+			"translation": [0, 13.5, 0]
+		},
+		"fixed": {
+			"translation": [0, 3, 0]
+		}
+	},
+	"groups": [0,
+		{
+			"name": "pet",
+			"origin": [8, 1.5, 6],
+			"children": [1, 2]
+		}
+	]
+}
