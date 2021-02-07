@@ -1,7 +1,9 @@
 {
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "minecraft:block/warped_stem_top",
-    "side": "minecraft:block/warped_stem"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"side": "block/warped_stem",
+		"end": "block/warped_stem_top"
+	},
+	"display": {}
 }
