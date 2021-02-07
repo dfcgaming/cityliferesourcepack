@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "blocks/hardened_clay_stained_red",
-		"1": "blocks/wool_colored_white",
-		"2": "blocks/stone_slab_top",
-		"particle": "blocks/hardened_clay_stained_red"
+		"0": "block/red_concrete_powder",
+		"1": "block/white_concrete",
+		"2": "block/stonecutter_bottom",
+		"particle": "block/red_concrete_powder"
 	},
 	"elements": [
 		{
