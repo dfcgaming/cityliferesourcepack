@@ -1,6 +1,47 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraft:item/emerald"
-  }
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "custom/200euro",
+		"particle": "custom/200euro"
+	},
+	"elements": [
+		{
+			"from": [4, 0, 9],
+			"to": [12, 4, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 2, 9.5]},
+			"faces": {
+				"north": {"uv": [2, 5, 14, 11], "texture": "#0"},
+				"east": {"uv": [2, 5, 2.25, 11], "texture": "#0"},
+				"south": {"uv": [2, 5, 14, 11], "texture": "#0"},
+				"west": {"uv": [13.75, 5, 14, 11], "texture": "#0"},
+				"up": {"uv": [2, 5, 14, 5.25], "texture": "#0"},
+				"down": {"uv": [2, 10.75, 14, 11], "texture": "#0"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 8, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [1, 7, -1],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"firstperson_lefthand": {
+			"translation": [1, 7, -1],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"ground": {
+			"translation": [0, 10, 0]
+		},
+		"gui": {
+			"translation": [0.25, 9, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"translation": [0, 12, -2.75],
+			"scale": [2, 2, 2]
+		}
+	}
 }
