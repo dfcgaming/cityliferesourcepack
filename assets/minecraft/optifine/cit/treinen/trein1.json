@@ -107,9 +107,9 @@
 		},
 		{
 			"name": "Wiel",
-			"from": [15, 24, 16],
-			"to": [16, 32, 24],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 38.63636, 1.59091]},
+			"from": [12, 24, 16],
+			"to": [13, 32, 24],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 38.63636, 1.59091]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
@@ -121,9 +121,9 @@
 		},
 		{
 			"name": "Wiel",
-			"from": [15, 24, -8],
-			"to": [16, 32, 0],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 38.63636, 1.59091]},
+			"from": [12, 24, -8],
+			"to": [13, 32, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 38.63636, 1.59091]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
@@ -135,9 +135,9 @@
 		},
 		{
 			"name": "Wiel",
-			"from": [0, 24, 16],
-			"to": [1, 32, 24],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 38.63636, 1.59091]},
+			"from": [3, 24, 16],
+			"to": [4, 32, 24],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 38.63636, 1.59091]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
@@ -149,9 +149,9 @@
 		},
 		{
 			"name": "Wiel",
-			"from": [0, 24, -8],
-			"to": [1, 32, 0],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 38.63636, 1.59091]},
+			"from": [3, 24, -8],
+			"to": [4, 32, 0],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 38.63636, 1.59091]},
 			"faces": {
 				"north": {"uv": [0, 0, 16, 16], "texture": "#1"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
@@ -181,7 +181,7 @@
 		},
 		"fixed": {
 			"translation": [0, -53.75, 17.5],
-			"scale": [2.5, 3, 2.5]
+			"scale": [4, 3, 2.5]
 		}
 	},
 	"groups": [
