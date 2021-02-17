@@ -2240,6 +2240,10 @@
 		"head": {
 			"translation": [0, 4.5, 17],
 			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"translation": [0, 23.5, 0],
+			"scale": [4, 4, 4]
 		}
 	},
 	"groups": [
