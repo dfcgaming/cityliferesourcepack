@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "minecraft:block/cube_all",
 	"textures": {
-		"0": "block/acacia_planks",
+		"0": "block/polished_andesite",
 		"1": "block/black_shulker_box",
-		"particle": "block/acacia_planks"
+		"particle": "block/polished_andesite"
 	},
 	"elements": [
 		{
