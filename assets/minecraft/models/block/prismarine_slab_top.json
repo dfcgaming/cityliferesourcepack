@@ -1,8 +1,23 @@
 {
-  "parent": "minecraft:block/slab_top",
-  "textures": {
-    "bottom": "minecraft:block/prismarine",
-    "top": "minecraft:block/prismarine",
-    "side": "minecraft:block/prismarine"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/slab_top",
+	"textures": {
+		"1": "block/white_concrete",
+		"particle": "block/white_concrete"
+	},
+	"elements": [
+		{
+			"from": [0, 8, 0],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 16, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1"}
+			}
+		}
+	]
 }
