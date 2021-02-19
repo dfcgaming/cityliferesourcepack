@@ -1,5 +1,6 @@
 {
-  "textures": {
-    "particle": "minecraft:block/conduit"
-  }
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "block/conduit"
+	}
 }
