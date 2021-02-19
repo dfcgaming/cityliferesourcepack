@@ -1,6 +1,23 @@
 {
-  "parent": "minecraft:block/template_fence_gate",
-  "textures": {
-    "texture": "minecraft:block/warped_planks"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/template_fence_gate",
+	"textures": {
+		"1": "block/black_concrete",
+		"particle": "block/black_concrete"
+	},
+	"elements": [
+		{
+			"from": [0, 11.5, 7.6],
+			"to": [16, 12.3, 8.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11.9, 8.1]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 0.8], "texture": "#1"},
+				"east": {"uv": [0, 0, 0.8, 0.8], "texture": "#1"},
+				"south": {"uv": [0, 0, 16, 0.8], "texture": "#1"},
+				"west": {"uv": [0, 0, 0.8, 0.8], "texture": "#1"},
+				"up": {"uv": [0, 0, 16, 0.8], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 0.8], "texture": "#1"}
+			}
+		}
+	]
 }

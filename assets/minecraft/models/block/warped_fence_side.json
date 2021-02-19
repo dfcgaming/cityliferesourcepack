@@ -1,6 +1,48 @@
 {
-  "parent": "minecraft:block/fence_side",
-  "textures": {
-    "texture": "minecraft:block/warped_planks"
-  }
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/fence_side",
+	"textures": {
+		"particle": "block/black_concrete"
+	},
+	"elements": [
+		{
+			"from": [7.6, 13.1, 5.3],
+			"to": [8.4, 13.9, 8.2],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 13.5, 7.3]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.8, 0.8], "texture": "#particle"},
+				"east": {"uv": [0, 0, 2.9, 0.8], "texture": "#particle"},
+				"south": {"uv": [0, 0, 0.8, 0.8], "texture": "#particle"},
+				"west": {"uv": [0, 0, 2.9, 0.8], "texture": "#particle"},
+				"up": {"uv": [0, 0, 0.8, 2.9], "texture": "#particle"},
+				"down": {"uv": [0, 0, 0.8, 2.9], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [7.6, 12.3, 1.9],
+			"to": [8.4, 13.1, 6.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 12.7, 5.9]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.8, 0.8], "texture": "#particle"},
+				"east": {"uv": [0, 0, 4.2, 0.8], "texture": "#particle"},
+				"south": {"uv": [0, 0, 0.8, 0.8], "texture": "#particle"},
+				"west": {"uv": [0, 0, 4.2, 0.8], "texture": "#particle"},
+				"up": {"uv": [0, 0, 0.8, 4.2], "texture": "#particle"},
+				"down": {"uv": [0, 0, 0.8, 4.2], "texture": "#particle"}
+			}
+		},
+		{
+			"from": [7.6, 11.5, -0.2],
+			"to": [8.4, 12.3, 2.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11.9, 1.8]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.8, 0.8], "texture": "#particle"},
+				"east": {"uv": [0, 0, 2.9, 0.8], "texture": "#particle"},
+				"south": {"uv": [0, 0, 0.8, 0.8], "texture": "#particle"},
+				"west": {"uv": [0, 0, 2.9, 0.8], "texture": "#particle"},
+				"up": {"uv": [0, 0, 0.8, 2.9], "texture": "#particle"},
+				"down": {"uv": [0, 0, 0.8, 2.9], "texture": "#particle"}
+			}
+		}
+	]
 }
