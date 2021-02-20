@@ -1,5 +1,6 @@
 {
-  "textures": {
-    "particle": "minecraft:block/warped_planks"
-  }
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "block/warped_planks"
+	}
 }
