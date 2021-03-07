@@ -78,7 +78,7 @@
   "menu.quit": "Quit Game",
   "menu.returnToMenu": "Save and Quit to Title",
   "menu.disconnect": ":(",
-  "menu.returnToGame": "Back to Game",
+  "menu.returnToGame": ":)",
   "menu.generatingLevel": "Generating world",
   "menu.loadingLevel": "Loading world",
   "menu.savingLevel": "Saving world",
