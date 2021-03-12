@@ -1465,7 +1465,7 @@
   "block.minecraft.stone_stairs": "Stone Stairs",
   "block.minecraft.smooth_sandstone_stairs": "Smooth Sandstone Stairs",
   "block.minecraft.smooth_quartz_stairs": "Smooth Quartz Stairs",
-  "block.minecraft.granite_stairs": "Illegal ramp",
+  "block.minecraft.granite_stairs": "Horizontal ramp",
   "block.minecraft.andesite_stairs": "Andesite Stairs",
   "block.minecraft.red_nether_brick_stairs": "Metal detector",
   "block.minecraft.polished_andesite_stairs": "Polished Andesite Stairs",
